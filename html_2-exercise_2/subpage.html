@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <head>
+    <title>Answer questions</title>
+    </head>
+</header>
+<body>
+    <form action="ThankYouPage.html" method="get">
+    <section>
+        <label for="name">What is your name? </label>
+        <input  name="name" id="name" type="text" autocomplete="given-name" placeholder="Firstname Lastname" required/>
+        <p></p>
+    </section>
+        <section>
+            <label for="Major">What is your Major? </label>
+            <section>
+                <input type="radio" name="Major" id="SWE" value="SWE" />
+                <label for="SWE">SWE</label>
+                <p></p>
+                <input type="radio" name="Major" id="CS" value="CS" />
+                <label for="CS">CS</label>
+            </section><p></p>
+        </section>
+        <section>
+            <label for="skills">What skills do you have from the following skills?</label>
+            <section>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="skills" id="Time management" value="Time management" />
+                            <label for="Time management">Time management</label><p></p>
+                        </td>
+                        <td>    
+                            <input type="checkbox" name="skills" id="Leadership" value="Leadership" />
+                            <label for="Leadership">Leadership</label><p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="skills" id="Project management" value="Project management" />
+                            <label for="Project management">Project management</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="skills" id="Problem-Solving" value="Problem-Solving" />
+                            <label for="Problem-Solving">Problem-Solving</label></td></tr>
+                </table>
+        
+            </section>
+        </section>
+        <p></p>
+        <section>
+            <label for="Building">What is your favorite building</label>
+            <section>
+                <input list="Buildings" id="Building" name="Building"/>
+                <datalist id="Buildings">
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="76">76</option>
+                </datalist><p></p>
+            </section>
+        </section>
+    <section>            
+        <label for="level">How do you rate your skills level in the following skills?<p></p></label>
+    </section>
+    <section>
+        <table>
+            <tr>
+                <td>
+                    <label for="html">html</label><p></p>
+                    <input type="range" name="level" id="html">
+                </td>
+                <td>
+                    <label for="CSS">CSS</label><p></p>
+                    <input type="range" name="level" id="CSS">
+                </td>
+                <td>
+                    <label for="JS">JS</label><p></p>
+                    <input type="range" name="level" id="JS">
+                </td>
+            </tr>
+        </table>
+    </section>
+    <p></p>
+    <nav>
+        <input type="submit" value="submit" />
+    </nav>   
+    </form>
+</body>
+</html>
