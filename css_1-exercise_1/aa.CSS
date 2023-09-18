@@ -1,0 +1,14 @@
+head{
+    color: white;
+}
+body{
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
+a{
+    color: rgb(86, 144, 252);
+}
+
+a:visited{
+    color: rgb(190, 253, 190);
+}
