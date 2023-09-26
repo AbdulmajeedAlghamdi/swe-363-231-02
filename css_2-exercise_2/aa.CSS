@@ -1,0 +1,19 @@
+header{
+    text-transform: uppercase;
+}
+a{
+    color: green;
+}
+
+.top{
+    background-color: #eb5406 ;
+}
+em{
+    background-color: blue;
+}
+
+#the_most_important{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
