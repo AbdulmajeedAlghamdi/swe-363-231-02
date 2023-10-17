@@ -51,16 +51,16 @@ body {
     margin-bottom: 0.3px;
 }
 #Instruction2 {
-    display: inline-block; /* This makes the table behave like a block */
-    border-collapse: collapse; /* Remove spacing between table cells */
+    display: inline-block; 
+    border-collapse: collapse; 
     margin-bottom: 10px;
 }
 
 #Instruction2 td {
-    width: 23px; /* Adjust the width of each cell as needed */
-    height: 23px; /* Adjust the height of each cell as needed */
+    width: 23px; 
+    height: 23px; 
     text-align: center;
-    border: 1px solid black; /* Add borders around table cells */
+    border: 1px solid black; 
     
 }
 #turn{
